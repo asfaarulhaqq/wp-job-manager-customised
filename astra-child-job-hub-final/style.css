@@ -1,0 +1,289 @@
+/**
+Theme Name: Job Hub Final Theme
+Author: Asfaar Ul Haq
+Author URI: asfaarulhaqq@gmail.com
+Description: Astra is the fastest.
+Version: 1.0.2
+Text Domain: astra-child
+Template: astra
+*/
+
+.job_listing_custom_sidebar  li.job_listing {
+    background: none !important;
+}
+.job_listing_custom_sidebar  ul.meta {
+    display: none;
+}
+.job_listing_custom_sidebar  a .company_logo{
+	display:none;
+}
+.job_listing_custom_sidebar a div.position{
+	padding:0 !important;
+	width:100% !important;
+}
+.job_listing_custom_sidebar .company{
+	display:none;
+}
+.job_listing_custom_sidebar .location{
+	padding:0 !important;
+	width:100% !important;
+	font-size:15px;
+}
+.job_listing_custom_sidebar li.job_listing a{
+	padding:10px 0px !important;
+}
+.job_listing_custom_sidebar h2{
+	font-size:18px !important;
+	margin-bottom:10px;
+	color:#000;
+}
+
+.rpwe-block .rpwe-title{
+	font-size:22px !important;
+}
+.sidebar_promo_text h3 a {
+    color: #000 !important;
+	pointer-events: none !important;
+}
+.sidebar_promo_text .rpwe-summary {
+    font-size: 16px;
+}
+.d-flex{
+	display:flex;
+}
+.flex-shrink-0{
+	flex-shrink:0;
+	margin-right:20px;
+}
+.flex-grow-1{
+	flex-grow:1;
+}
+.job_head .row{
+	display:flex;
+	width:100%;
+	justify-content:space-between;
+}
+.job_head {
+    padding: 25px 0px 0px;
+    background: #fff;
+    box-shadow: 0px 12px 20px 0px #d9d9d9;
+}
+.job_head.stickyHead {
+    padding:10px 0px;
+	box-shadow:0px 0px 10px #d1d1d1;
+	position:sticky;
+	top:0;
+	transition:.5s;
+}
+.job_head h1.job_title_top {
+    color: #000;
+    font-family: inherit;
+    font-weight: 700;
+}
+.date-posted, .company_name, .salary {
+    font-size: 18px;
+    color: #000;
+	padding:4px 0px;
+}
+.location{
+	font-size:18px;
+	color:#716d6d;
+	padding:4px 0px;
+}
+.salary {
+    display: inline-block;
+    background: #1188a3;
+    color: #fff;
+    padding: 8px 12px;
+    font-weight: 500;
+}
+.single_job_listing .meta .salary:before{
+	display:none !important;
+}
+input.application_button.button {
+    background: #36c6e8;
+}
+.desc_text {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 22px;
+	padding:8px 0px;
+}
+.job_listing_custom_sidebar .job_listings li a {
+	background:#fff !important;
+}
+.job_listing_custom_sidebar .job_listings li {
+    border: 1px solid #ccc;
+    padding: 10px 15px !important;
+    margin: 0 !important;
+    background: #fff !important;
+}
+div#content {
+    background: #fff;
+}
+.ast-separate-container .ast-article-single:not(.ast-related-post) {
+    background-color: transparent !important;
+}
+.ast-separate-container.ast-right-sidebar #primary{
+	margin:0 !important;
+}
+.nav-previous a, .nav-next a {
+    padding: 15px 30px;
+    border: 2px solid #b7b7b7;
+    color: #000 !important;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.location::before {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-style: normal;
+    vertical-align: top;
+    font-size: 16px;
+    content: '' !important;
+	background:url(./assets/images/pin.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+    font-family: job-manager !important;
+    text-decoration: none;
+    margin: 0px 2px 0px 0px;
+}
+.job_listing_custom_sidebar ul {
+    margin: 0 !important;
+}
+li.sidebar_jobs {
+    list-style: none !important; 
+}
+.d-flex.align-middle{
+	display:flex;
+	align-items:center;
+}
+.job_name h3 a {
+    font-size: 16px ;
+	color:#000;
+}
+.suitcase_logo img {
+    width: 45px;
+}
+li.sidebar_jobs {
+    border: 2px solid #dfdfdf;
+    padding: 10px 10px;
+	margin-bottom: -2px !important;
+}
+.date-posted::before {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-style: normal;
+    vertical-align: top;
+    font-size: 16px;
+    content: '' !important;
+	background:url(./assets/images/clock.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+    font-family: job-manager !important;
+    text-decoration: none;
+    margin: 0px 2px 0px 0px;
+}
+.stickyHead .date-posted, .stickyHead .company_name, .stickyHead  .salary{
+	display:none;
+	transition:.5s;
+}
+.apply_now_button{
+	display:none;
+}
+img.company_logo{
+	width:150px;
+}
+.side_blogs_para {
+    padding: 20px 0px;
+}
+.sidebar_blogs{
+	border-bottom:1px solid #eee !important;
+	padding:5px 0 10px!important;
+}
+.sidebar_blogs h3 {
+    font-size: 20px !important;
+    text-transform: capitalize;
+}
+aside#secondary {
+    padding: 0px !important;
+}   
+.main_banner .ast-container, .jobs_list .ast-container {
+    display: block;
+}
+.main_banner{
+    min-height: 71vh;
+    display: flex;
+    align-items: center;
+    /* padding: 100px 0px; */
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.main_banner h1 {
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 4px 8px black;
+    font-size: 60px;
+}
+.main_banner h4 {
+    font-weight: 600;
+    color: #fff;
+    /* text-shadow: 0 4px 8px black; */
+    font-size: 30px;
+}
+
+@media (min-width: 993px){
+	aside#secondary {
+    	padding: 0px !important;
+	}
+/* 	#primary{
+		width:70%;
+	}
+	#secondary {
+    	width: 30%;
+	} */
+}
+@media (max-width:768px){
+	.company_logo img {
+    	width: 65px;
+	}
+	.job_head .col-2{
+		display:none !important;
+	}
+	.job_head h1.job_title_top{
+		font-size:16px;
+	}
+	.date-posted, .company_name, .salary, .location {
+    font-size: 16px;
+		display:block;
+    padding: 0px 0px;
+}
+	.apply_now_button {
+    background: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: block;
+}
+	.apply_now_button .job_application a {
+    display: grid;
+}
+	.job_head {
+		padding: 10px 0px 10px !important;
+	}
+}
+.site-branding {
+    display: flex;
+    align-items: center;
+}
+
+.site-branding .site-logo-img{
+	margin-right:20px;
+}
