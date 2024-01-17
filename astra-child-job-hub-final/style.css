@@ -222,10 +222,13 @@ aside#secondary {
     display: flex;
     align-items: center;
     /* padding: 100px 0px; */
-    background-size: cover;
+    background-size: cover !important;
     margin-bottom: 50px;
+	background-blend-mode: overlay;
+    background-color: #00000085 !important;
 }
 .main_banner h1 {
+	text-align:center;
     font-weight: bold;
     color: #fff;
     text-shadow: 0 4px 8px black;
