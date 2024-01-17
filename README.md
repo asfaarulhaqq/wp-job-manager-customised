@@ -1,5 +1,5 @@
 <!-- Project Title -->
-<h1 align="center">Custom WordPress Child Theme for Astra</h1>
+<h1 align="center">Custom WordPress Job Manager Child Theme for Astra</h1>
 
 <!-- Project Description -->
 <p align="center">
