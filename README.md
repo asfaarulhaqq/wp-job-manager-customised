@@ -15,10 +15,7 @@
 </p>
 
 <!-- Screenshots/GIFs -->
-<p align="center">
-  <img src="screenshots/homepage.png" alt="Homepage Screenshot" width="600">
-  <img src="screenshots/login-page.png" alt="Login Page Screenshot" width="600">
-</p>
+
 
 <!-- Features -->
 ## Features
