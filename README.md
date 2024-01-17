@@ -62,3 +62,11 @@ Feel free to customize the theme further based on your specific needs. The theme
 <!-- Contributors -->
 ## Contributors
 [Asfaar Ul Haq Siddiqui] asfaarulhaqq@gmail.com
+
+## Dependencies
+WordPress (v5.8 and above) with Astra (v3.0 and above).
+
+## License
+Copyright (c) 2024 Asfaar Siddiqui
+
+Licensed under the MIT license.
